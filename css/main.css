@@ -5,6 +5,8 @@
 header {
    background-color: #212121;
    padding: 19px 0 21px 0;
+   position: fixed;
+   width: 100%;
 }
 
 #menu {
@@ -39,6 +41,7 @@ a {
 .introduce {
    background: url(../img/bg/uber_bg.png) center center/cover no-repeat;
    padding-bottom: 186px;
+   padding-top: 71px;
 }
 
 #intro_header {
