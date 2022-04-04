@@ -177,7 +177,7 @@ a {
 .reason {
    /*display: flex;*/
    /*align-items: center;*/
-   margin-top: 26px;
+   margin: 26px auto 0 auto;
 }
 
 .reason_img {
@@ -199,7 +199,7 @@ a {
 
 .reason_txt {
    display: inline-block;
-   max-width: 371px;
+   /*max-width: 371px;*/
    /*max-height: 151px;*/
    font-size: 15px;
    font-weight: 300;
