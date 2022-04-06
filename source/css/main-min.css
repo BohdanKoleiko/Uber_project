@@ -171,10 +171,15 @@ a {
    text-transform: uppercase;
 }
 
-.reason {
+/*.reason_wrapper {
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}*/
+
+.reason {
+   /*display: flex;*/
+   /*align-items: center;*/
    margin: 26px auto 0 auto;
 }
 
@@ -197,7 +202,8 @@ a {
 
 .reason_txt {
    display: inline-block;
-   max-width: 371px;
+   /*max-width: 371px;*/
+   /*max-height: 151px;*/
    font-size: 15px;
    font-weight: 300;
 }
