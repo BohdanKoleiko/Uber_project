@@ -179,8 +179,8 @@ a {
 }
 
 .reason_img {
-   width: 116px;
-   height: 116px;
+   min-width: 116px;
+   min-height: 116px;
    background-color: #1EACC7;
    border-radius: 50%;
    display: inline-flex;
@@ -196,7 +196,6 @@ a {
 }
 
 .reason_txt {
-   display: inline-block;
    max-width: 371px;
    font-size: 15px;
    font-weight: 300;
