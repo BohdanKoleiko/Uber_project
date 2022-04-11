@@ -624,19 +624,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/img\/careful.png" : {
-      "ft" : 32768,
-      "iS" : 76301,
-      "oA" : 0,
-      "oAP" : "\/source\/img\/careful.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-icon",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/source\/img\/check_blue_icon.png" : {
       "ft" : 32768,
       "iS" : 1058,
@@ -663,11 +650,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/img\/clear_price.png" : {
+    "\/source\/img\/clear_prices.png" : {
       "ft" : 32768,
       "iS" : 51201,
       "oA" : 0,
-      "oAP" : "\/source\/img\/clear_price.png",
+      "oAP" : "\/source\/img\/clear_prices.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -793,6 +780,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/img\/Plus.png" : {
+      "ft" : 32768,
+      "iS" : 161,
+      "oA" : 0,
+      "oAP" : "\/source\/img\/Plus.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/img\/safe_supply.png" : {
+      "ft" : 32768,
+      "iS" : 76301,
+      "oA" : 0,
+      "oAP" : "\/source\/img\/safe_supply.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-icon",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/img\/share_bill.png" : {
       "ft" : 32768,
       "iS" : 57190,
@@ -905,7 +918,7 @@
       "oF" : 3,
       "oS" : 2,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     },
     "\/UBER_course.psd" : {
       "cB" : 0,
@@ -2400,7 +2413,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 2,
-      "compilerType" : 0,
+      "compilerType" : 1,
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,

@@ -1,6 +1,8 @@
 *
    font-family: Roboto, sans-serif
 
+$blue_color: #1eacc7
+
 .strong_side
    height: 27px
    width: 115px
@@ -94,7 +96,7 @@ a
 #intro_header #order_button
    width: 172px
    height: 46px
-   background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+   background-image: linear-gradient(0deg, $blue_color 0%, #4CE2FF 100%)
    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
    border-radius: 4px
    text-transform: uppercase
@@ -135,7 +137,7 @@ a
 
 .introduce #request_button button
    color: #FFFFFF
-   background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+   background-image: linear-gradient(0deg, $blue_color 0%, #4CE2FF 100%)
    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
    width: 259px
    height: 63px
@@ -159,7 +161,7 @@ a
 .reason_img
    min-width: 116px
    min-height: 116px
-   background-color: #1EACC7
+   background-color: $blue_color
    border-radius: 50%
    display: inline-flex
    justify-content: center
@@ -173,38 +175,61 @@ a
    font-weight: 300
 
    span
-      color: #1EACC7
+      color: $blue_color
       font-size: 17px
       font-weight: 400
 //---------------------------------------------
 
 //Begining "mobile_app" block
-#mobile_app
-   padding: 48px 0 77px 0
+.mobile_app
+   padding: 48px 0 61px 0
    background: url("../img/bg/mobile_bg.png") center center/cover no-repeat
 
-   .description
-      margin-bottom: 11px
+   .row
+      margin-top: 30px
 
-   .mobile_app_wrapper
-      display: flex
-      justify-content: space-around
-
-   .pluses
+   &_wrapper
+      position: relative
       width: 320px
       height: 280px
-      background: url("../img/share_bill.png") center center/cover no-repeat
-      margin-top: 19px
-      display: flex
-      justify-content: center
-      align-items: center
+      margin: 0 auto
+      margin-bottom: 19px
 
-   .text_pluses
-      color: #FFFFFF
-      font-weight: 400
-      font-size: 24px
-      text-align: center
-      text-transform: uppercase
+      &_1
+         background: url("../img/do_order.png") center (center / cover) no-repeat
+      &_2
+         background: url("../img/safe_supply.png") center (center / cover) no-repeat
+      &_3
+         background: url("../img/clear_prices.png") center (center / cover) no-repeat
+      &_4
+         background: url("../img/by_card.png") center (center / cover) no-repeat
+      &_5
+         background: url("../img/callback.png") center (center / cover) no-repeat
+      &_6
+         background: url("../img/share_bill.png") center (center / cover) no-repeat
+
+      &_text
+         color: #FFFFFF
+         font-weight: 400
+         font-size: 24px
+         text-align: center
+         text-transform: uppercase
+         padding-top: 88.5px
+
+      &_plus
+         display: flex
+         justify-content: center
+         align-items: center
+         position: absolute
+         bottom: 34px
+         left: 145px
+         width: 29px
+         height: 29px
+         background-color: #000
+         border-radius: 100%
+
+         img
+            width: 60%
 //---------------------------------------------
 
 //Begining "great_choice" block
@@ -224,14 +249,14 @@ a
    .description
       color: #FFFFFF
 
-   #cheap_x_img
+   &_img
       position: relative
       margin-top: 54px
       margin-left: 269px
       width: 759px
       z-index: 1
 
-   #gc_white_bg_txt
+   &_txt
       color: #222222
       text-align: center
       width: 327px

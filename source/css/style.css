@@ -1,3 +1,86 @@
-*{font-family:Roboto,sans-serif}.strong_side{height:27px;width:115px;margin:0 auto;padding:6px 11px;background-color:#000;text-align:center;color:#fff;text-transform:uppercase;font-size:11px;font-weight:400}.sub_strong_side{text-align:center;font-weight:700;font-size:38px;margin-top:32px;margin-bottom:0;text-transform:uppercase}.description{color:#222;font-weight:400;font-size:17px;text-align:center}header{background-color:#212121;padding:19px 0 21px 0;position:fixed;width:100%;z-index:2}#menu{display:flex;justify-content:space-around;align-items:center;list-style:none;padding:0 71px;margin:0;font-weight:300;font-size:15px;line-height:15px}a{text-decoration:none;color:#fff}.devider{height:31px;width:1px;background-color:rgba(0,0,0,.001);border:1px dashed #000;mix-blend-mode:soft-light}.introduce{background:url("../img/bg/uber_bg.png") center center/cover no-repeat;padding-bottom:186px;padding-top:71px}#intro_header{background-color:rgba(0,0,0,.6);padding:19px 0 23px 0}.max_size{display:block;max-width:100%}.logo_text{display:block;color:#fff;font-size:13px}#for_call{display:inline-block;color:#fff;width:182px;font-weight:300;font-size:12px;text-align:right}#number_call{font-weight:400;font-size:22px}#intro_header #order_button{width:172px;height:46px;background-image:linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);box-shadow:inset 0px -3px 0px rgba(0,0,0,.12);border-radius:4px;text-transform:uppercase;color:#fff;font-weight:400;font-size:14px}#h1_header{color:#fff;text-align:center;text-transform:uppercase;font-weight:900;font-size:60px;line-height:60px;margin-top:66px;margin-bottom:0}#h2_subheader{color:#fff;text-align:center;text-transform:uppercase;font-weight:700;font-size:36px;line-height:36px;margin:0;margin-top:22px}.intro_text{color:#fff;text-align:center;font-weight:400;font-size:18px;line-height:24px;margin-top:28px}#request_button{text-align:center}.introduce #request_button button{color:#fff;background-image:linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);box-shadow:inset 0px -3px 0px rgba(0,0,0,.12);width:259px;height:63px;border-radius:4px;margin-top:118px}#reasons_to_start{padding-top:18px;padding-bottom:64px}.reason{display:flex;align-items:center;justify-content:center;margin:26px auto 0 auto}.reason_img{min-width:116px;min-height:116px;background-color:#1eacc7;border-radius:50%;display:inline-flex;justify-content:center;align-items:center;margin-right:25px}.reason_txt{max-width:371px;font-size:15px;font-weight:300}.reason_txt span{color:#1eacc7;font-size:17px;font-weight:400}#mobile_app{padding:48px 0 77px 0;background:url("../img/bg/mobile_bg.png") center center/cover no-repeat}#mobile_app .description{margin-bottom:11px}#mobile_app .mobile_app_wrapper{display:flex;justify-content:space-around}#mobile_app .pluses{width:320px;height:280px;background:url("../img/share_bill.png") center center/cover no-repeat;margin-top:19px;display:flex;justify-content:center;align-items:center}#mobile_app .text_pluses{color:#fff;font-weight:400;font-size:24px;text-align:center;text-transform:uppercase}#good_choice{background:url("../img/bg/choice_bg.png") bottom no-repeat;background-color:#070716;padding-top:57px;padding-bottom:137.5px}#good_choice .strong_side{background-color:#fff;color:#070716}#good_choice .sub_strong_side{color:#fff}#good_choice .description{color:#fff}#good_choice #cheap_x_img{position:relative;margin-top:54px;margin-left:269px;width:759px;z-index:1}#good_choice #gc_white_bg_txt{color:#222;text-align:center;width:327px;margin:0 auto;font-weight:300;font-size:17px}
+* { font-family: Roboto, sans-serif; }
 
+.strong_side { height: 27px; width: 115px; margin: 0 auto; padding: 6px 11px; background-color: #000000; text-align: center; color: #FFFFFF; text-transform: uppercase; font-size: 11px; font-weight: 400; }
+
+.sub_strong_side { text-align: center; font-weight: 700; font-size: 38px; margin-top: 32px; margin-bottom: 0; text-transform: uppercase; }
+
+.description { color: #222222; font-weight: 400; font-size: 17px; text-align: center; }
+
+header { background-color: #212121; padding: 19px 0 21px 0; position: fixed; width: 100%; z-index: 2; }
+
+#menu { display: flex; justify-content: space-around; align-items: center; list-style: none; padding: 0 71px; margin: 0; font-weight: 300; font-size: 15px; line-height: 15px; }
+
+a { text-decoration: none; color: #FFFFFF; }
+
+.devider { height: 31px; width: 1px; background-color: rgba(0, 0, 0, 0.001); border: 1px dashed #000000; mix-blend-mode: soft-light; }
+
+.introduce { background: url("../img/bg/uber_bg.png") center center/cover no-repeat; padding-bottom: 186px; padding-top: 71px; }
+
+#intro_header { background-color: rgba(0, 0, 0, 0.6); padding: 19px 0 23px 0; }
+
+.max_size { display: block; max-width: 100%; }
+
+.logo_text { display: block; color: #FFFFFF; font-size: 13px; }
+
+#for_call { display: inline-block; color: #FFFFFF; width: 182px; font-weight: 300; font-size: 12px; text-align: right; }
+
+#number_call { font-weight: 400; font-size: 22px; }
+
+#intro_header #order_button { width: 172px; height: 46px; background-image: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%); box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12); border-radius: 4px; text-transform: uppercase; color: #FFFFFF; font-weight: 400; font-size: 14px; }
+
+#h1_header { color: #FFFFFF; text-align: center; text-transform: uppercase; font-weight: 900; font-size: 60px; line-height: 60px; margin-top: 66px; margin-bottom: 0; }
+
+#h2_subheader { color: #FFFFFF; text-align: center; text-transform: uppercase; font-weight: 700; font-size: 36px; line-height: 36px; margin: 0; margin-top: 22px; }
+
+.intro_text { color: #FFFFFF; text-align: center; font-weight: 400; font-size: 18px; line-height: 24px; margin-top: 28px; }
+
+#request_button { text-align: center; }
+
+.introduce #request_button button { color: #FFFFFF; background-image: linear-gradient(0deg, #1eacc7 0%, #4CE2FF 100%); box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12); width: 259px; height: 63px; border-radius: 4px; margin-top: 118px; }
+
+#reasons_to_start { padding-top: 18px; padding-bottom: 64px; }
+
+.reason { display: flex; align-items: center; justify-content: center; margin: 26px auto 0 auto; }
+
+.reason_img { min-width: 116px; min-height: 116px; background-color: #1eacc7; border-radius: 50%; display: inline-flex; justify-content: center; align-items: center; margin-right: 25px; }
+
+.reason_txt { max-width: 371px; font-size: 15px; font-weight: 300; }
+
+.reason_txt span { color: #1eacc7; font-size: 17px; font-weight: 400; }
+
+.mobile_app { padding: 48px 0 61px 0; background: url("../img/bg/mobile_bg.png") center center/cover no-repeat; }
+
+.mobile_app .row { margin-top: 30px; }
+
+.mobile_app_wrapper { position: relative; width: 320px; height: 280px; margin: 0 auto; margin-bottom: 19px; }
+
+.mobile_app_wrapper_1 { background: url("../img/do_order.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_2 { background: url("../img/safe_supply.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_3 { background: url("../img/clear_prices.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_4 { background: url("../img/by_card.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_5 { background: url("../img/callback.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_6 { background: url("../img/share_bill.png") center center/cover no-repeat; }
+
+.mobile_app_wrapper_text { color: #FFFFFF; font-weight: 400; font-size: 24px; text-align: center; text-transform: uppercase; padding-top: 88.5px; }
+
+.mobile_app_wrapper_plus { display: flex; justify-content: center; align-items: center; position: absolute; bottom: 34px; left: 145px; width: 29px; height: 29px; background-color: #000; border-radius: 100%; }
+
+.mobile_app_wrapper_plus img { width: 60%; }
+
+#good_choice { background: url("../img/bg/choice_bg.png") bottom no-repeat; background-color: #070716; padding-top: 57px; padding-bottom: 137.5px; }
+
+#good_choice .strong_side { background-color: #FFFFFF; color: #070716; }
+
+#good_choice .sub_strong_side { color: #FFFFFF; }
+
+#good_choice .description { color: #FFFFFF; }
+
+#good_choice_img { position: relative; margin-top: 54px; margin-left: 269px; width: 759px; z-index: 1; }
+
+#good_choice_txt { color: #222222; text-align: center; width: 327px; margin: 0 auto; font-weight: 300; font-size: 17px; }
 /*# sourceMappingURL=style.css.map */
