@@ -47,10 +47,26 @@ header
    font-weight: 300
    font-size: 15px
    line-height: 15px
+   transition: 0.5s all
+
+   li
+      &::after
+         content: ""
+         display: block
+         height: 2px
+         width: 0%
+         background-color: $blue_color
+         transition: easy-out, all, 0.5s
+         margin: 0 auto
+      &:hover
+         &::after
+            width: 100%
 
 a
    text-decoration: none
    color: #FFFFFF
+   &:hover
+      color: #fff
 
 .devider
    height: 31px
@@ -58,11 +74,10 @@ a
    background-color: rgba(0, 0, 0, 0.001)
    border: 1px dashed #000000
    mix-blend-mode: soft-light
-
 //---------------------------------------------
 
-//Beginning of the "introduce" block
 
+//Beginning of the "introduce" block
 .introduce
    background: url("../img/bg/uber_bg.png") center (center / cover) no-repeat
    padding-bottom: 186px
@@ -73,11 +88,10 @@ a
    padding: 19px 0 23px 0
 
 .max_size
-   display: block
+   display: inline-block
    max-width: 100%
 
 .logo_text
-   display: block
    color: #FFFFFF
    font-size: 13px
 
@@ -143,11 +157,10 @@ a
    height: 63px
    border-radius: 4px
    margin-top: 118px
-
 //---------------------------------------------
 
-//Beginning of the "reasons_to_start" block
 
+//Beginning of the "reasons_to_start" block
 #reasons_to_start
    padding-top: 18px
    padding-bottom: 64px
@@ -179,6 +192,7 @@ a
       font-size: 17px
       font-weight: 400
 //---------------------------------------------
+
 
 //Begining "mobile_app" block
 .mobile_app
@@ -232,7 +246,8 @@ a
             width: 60%
 //---------------------------------------------
 
-//Begining "great_choice" block
+
+//Begining "good_choice" block
 #good_choice
    background: url("../img/bg/choice_bg.png") bottom no-repeat
    background-color: #070716
@@ -263,3 +278,83 @@ a
       margin: 0 auto
       font-weight: 300
       font-size: 17px
+//---------------------------------------------
+
+
+//Begining "condition" block
+.condition
+   padding: 68px 0 87px 0
+
+   .sub_strong_side
+      margin-bottom: 33px
+
+   &_blue-header
+      color: $blue_color
+      font-weight: 400
+      font-size: 22px
+      line-height: 24px
+      margin-bottom: 16px
+
+   &_item-blue
+      display: flex
+      align-items: flex-start
+      font-weight: 300
+      font-size: 17px
+
+      p
+         margin: 0
+         display: inline
+
+      &:nth-child(n+2)
+         margin-top: 9px
+
+      &::before
+         content: ""
+         display: inline-block
+         background-image: url(../img/check_blue_icon.png)
+         background-position: center center
+         background-size: contain
+         background-repeat: no-repeat
+         height: 20px
+         width: 21px
+         margin-left: 18px
+         margin-right: 10px
+   
+   &_txt
+      margin-top: 25px
+      font-weight: 300
+      font-size: 17px
+      color: $blue_color
+
+   &_red-header
+      color: #FF5656
+      font-weight: 400
+      font-size: 22px
+      line-height: 24px
+      margin-top: 61px
+      margin-bottom: 16px
+      
+   &_item-red
+      display: flex
+      align-items: flex-start
+      font-weight: 300
+      font-size: 17px
+
+      p
+         margin: 0
+         display: inline
+      
+      &:nth-child(n+2)
+         margin-top: 9px
+
+      &::before
+         content: ""
+         display: inline-block
+         background-image: url(../img/check_red_icon.png)
+         background-position: center center
+         background-size: contain
+         background-repeat: no-repeat
+         height: 20px
+         width: 21px
+         margin-left: 18px
+         margin-right: 10px
