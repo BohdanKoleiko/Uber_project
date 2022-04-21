@@ -48,14 +48,13 @@ header
    font-size: 15px
    line-height: 15px
    transition: 0.5s all
-
    li
       &::after
          content: ""
          display: block
          height: 2px
          width: 0%
-         background-color: $blue_color
+         background-color: #fff
          transition: easy-out, all, 0.5s
          margin: 0 auto
       &:hover
@@ -67,7 +66,6 @@ a
    color: #FFFFFF
    &:hover
       color: #fff
-
 .devider
    height: 31px
    width: 1px
@@ -170,23 +168,19 @@ a
    align-items: center
    justify-content: center
    margin: 26px auto 0 auto
-
-.reason_img
-   min-width: 116px
-   min-height: 116px
-   background-color: $blue_color
-   border-radius: 50%
-   display: inline-flex
-   justify-content: center
-   align-items: center
-   margin-right: 25px
-
-.reason_txt
-
-   max-width: 371px
-   font-size: 15px
-   font-weight: 300
-
+   &_img
+      min-width: 116px
+      min-height: 116px
+      background-color: $blue_color
+      border-radius: 50%
+      display: inline-flex
+      justify-content: center
+      align-items: center
+      margin-right: 25px
+   &_txt
+      max-width: 371px
+      font-size: 15px
+      font-weight: 300
    span
       color: $blue_color
       font-size: 17px
@@ -198,17 +192,14 @@ a
 .mobile_app
    padding: 48px 0 61px 0
    background: url("../img/bg/mobile_bg.png") center center/cover no-repeat
-
    .row
       margin-top: 30px
-
    &_wrapper
       position: relative
       width: 320px
       height: 280px
       margin: 0 auto
       margin-bottom: 19px
-
       &_1
          background: url("../img/do_order.png") center (center / cover) no-repeat
       &_2
@@ -221,7 +212,6 @@ a
          background: url("../img/callback.png") center (center / cover) no-repeat
       &_6
          background: url("../img/share_bill.png") center (center / cover) no-repeat
-
       &_text
          color: #FFFFFF
          font-weight: 400
@@ -229,7 +219,6 @@ a
          text-align: center
          text-transform: uppercase
          padding-top: 88.5px
-
       &_plus
          display: flex
          justify-content: center
@@ -241,14 +230,13 @@ a
          height: 29px
          background-color: #000
          border-radius: 100%
-
          img
             width: 60%
 //---------------------------------------------
 
 
 //Begining "good_choice" block
-#good_choice
+.good_choice
    background: url("../img/bg/choice_bg.png") bottom no-repeat
    background-color: #070716
    padding-top: 57px
@@ -257,20 +245,16 @@ a
    .strong_side
       background-color: #FFFFFF
       color: #070716
-
    .sub_strong_side
       color: #FFFFFF
-
    .description
       color: #FFFFFF
 
    &_img
       position: relative
-      margin-top: 54px
-      margin-left: 269px
-      width: 759px
+      display: block
+      margin: 54px auto 0 auto
       z-index: 1
-
    &_txt
       color: #222222
       text-align: center
@@ -284,30 +268,24 @@ a
 //Begining "condition" block
 .condition
    padding: 68px 0 87px 0
-
    .sub_strong_side
       margin-bottom: 33px
-
-   &_blue-header
+   &_blue-title
       color: $blue_color
       font-weight: 400
       font-size: 22px
       line-height: 24px
       margin-bottom: 16px
-
    &_item-blue
       display: flex
       align-items: flex-start
       font-weight: 300
       font-size: 17px
-
       p
          margin: 0
          display: inline
-
-      &:nth-child(n+2)
+      &:nth-child(1n+2)
          margin-top: 9px
-
       &::before
          content: ""
          display: inline-block
@@ -319,34 +297,32 @@ a
          width: 21px
          margin-left: 18px
          margin-right: 10px
-   
+
    &_txt
       margin-top: 25px
       font-weight: 300
       font-size: 17px
       color: $blue_color
+      p
+         margin-bottom: 0
 
-   &_red-header
+   &_red-title
       color: #FF5656
       font-weight: 400
       font-size: 22px
       line-height: 24px
       margin-top: 61px
       margin-bottom: 16px
-      
    &_item-red
       display: flex
       align-items: flex-start
       font-weight: 300
       font-size: 17px
-
       p
          margin: 0
          display: inline
-      
-      &:nth-child(n+2)
+      &:nth-child(1n+2)
          margin-top: 9px
-
       &::before
          content: ""
          display: inline-block
@@ -358,3 +334,125 @@ a
          width: 21px
          margin-left: 18px
          margin-right: 10px
+//---------------------------------------------
+
+
+//Begining "worldwide" block
+.worldwide
+   background: url(../img/bg/world_bg.png) center (center/cover) no-repeat
+   padding-top: 46px
+   padding-bottom: 50px
+   .strong_side
+      background-color: #fff
+      color: #070716
+      width: 79px
+      height: 27px
+   .sub_strong_side
+      color: #fff
+   .description
+      color: #fff
+   p
+      display: block
+      max-width: 200px
+      text-transform: uppercase
+      font-weight: 400
+      font-size: 15px
+      line-height: 16px
+      margin: 0 auto
+      margin-top: 484px
+      a
+         color: $blue_color
+         &::after
+            content: ""
+            display: block
+            height: 2px
+            width: 0%
+            background-color: $blue_color
+            transition: easy-out, all, 0.5s
+            margin: 0 auto
+
+         &:hover
+            &::after
+               width: 100%
+//---------------------------------------------
+
+
+//Begining "footer" block
+footer
+   padding-top: 14px
+   padding-bottom: 54px
+   .devider
+      height: 4px
+      width: 299px
+      background-color: $blue_color
+      margin: 0 auto
+      mix-blend-mode: normal
+      border: none
+   .menu-upper
+      display: flex
+      flex-direction: row
+      justify-content: center
+      list-style: none
+      margin: 0
+      padding: 0
+      margin-top: 29px
+      text-transform: uppercase
+      li
+         font-weight: 300
+         font-size: 15px
+         line-height: 16px
+         a
+            color: #070716
+            &::after
+               content: ""
+               display: block
+               height: 2px
+               width: 0%
+               transition: easy-out, all, 0.5s
+               background-color:#070716
+               margin: 0 auto
+            &:hover
+               &::after
+                  width: 100%
+
+         &:nth-child(2n)
+            padding-left: 45px
+            padding-right: 45px
+
+
+   .menu
+      display: flex
+      flex-direction: row
+      justify-content: center
+      list-style: none
+      margin: 0
+      padding: 0
+      margin-top: 29px
+      text-transform: uppercase
+      li
+         font-weight: 300
+         font-size: 11px
+         line-height: 12px
+         a
+            color: #999999
+            &::after
+               content: ""
+               display: block
+               height: 2px
+               width: 0%
+               transition: easy-out, all, 0.5s
+               background-color: #999999
+               margin: 0 auto
+            &:hover
+               &::after
+                  width: 100%
+
+         &:nth-child(2n)
+            padding-left: 21px
+            padding-right: 21px
+
+   .lang
+      text-transform: uppercase
+      color: $blue_color
+      margin-top: 17px
+      text-align: center

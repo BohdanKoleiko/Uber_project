@@ -15,8 +15,8 @@
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
       <!--Підключення стилів-->
-      <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
       <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
       <link rel="stylesheet" href="css/style.css" type="text/css">
       
       <title>Uber Partners</title>
@@ -247,18 +247,16 @@
          </div>
       </section>
 
-      <section id="good_choice">
+      <section class="good_choice">
          <div class="container">
             <div class="strong_side">Возможности</div>
             <h2 class="sub_strong_side">Выбор - отличная штука!</h2>
             <div class="description">
                Закажите автомобиль, который подходит вам по стилю и бюджету
             </div>
-            <div id="good_choice_img">
-               <img src="./img/bg/Car_bg.png" alt="Uber's car">
-            </div>
+            <img src="./img/bg/Car_bg.png" alt="Uber's car" class="good_choice_img">
 
-            <div id="good_choice_txt">
+            <div class="good_choice_txt">
                Машины на каждый день. <br>Лучше, быстрее и дешевле, чем такси
             </div>
          </div>
@@ -270,8 +268,8 @@
             <h2 class="sub_strong_side">условия и требования</h2>
 
             <div class="row align-content-center">
-               <div class="col-md-6">
-                  <div class="condition_blue-header">УСЛОВИЯ: со своим авто:</div>
+               <div class="col-md-6 offset-md-1">
+                  <div class="condition_blue-title">УСЛОВИЯ: со своим авто:</div>
 
                   <div class="condition_own-car">
                      <div class="condition_item-blue">
@@ -300,8 +298,8 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <div class="condition_blue-header">УСЛОВИЯ: на авто компании:</div>
+               <div class="col-md-5">
+                  <div class="condition_blue-title">УСЛОВИЯ: на авто компании:</div>
 
                   <div class="condition_company-car">
                      <div class="condition_item-blue">
@@ -315,8 +313,8 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <div class="condition_red-header">ТРЕБОВАНИЕ:</div>
+               <div class="col-md-6 offset-md-1">
+                  <div class="condition_red-title">ТРЕБОВАНИЕ:</div>
 
                   <div class="condition_requirements">
                      <div class="condition_item-red">
@@ -336,8 +334,8 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <div class="condition_red-header">ДОКУМЕНТЫ:</div>
+               <div class="col-md-5">
+                  <div class="condition_red-title">ДОКУМЕНТЫ:</div>
                   
                   <div class="condition_docs">
                      <div class="condition_item-red">
@@ -363,6 +361,51 @@
             </div>
          </div>
       </section>
+
+      <section class="worldwide">
+         <div class="container">
+            <div class="strong_side">города</div>
+            <h2 class="sub_strong_side">По всему миру</h2>
+            <div class="description">
+               Мы в вашем городе и по всему миру
+            </div>
+
+            <p>
+               <a href="#">посмотреть все города</a>
+            </p>
+         </div>
+      </section>
+
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 offset-md-4">
+                  <div class="devider"></div>
+               </div>
+               <div class="col-md-4 offset-md-4">
+                  <ul class="menu-upper">
+                     <li><a href="#">на главную</a></li>
+                     <li><a href="#">города</a></li>
+                     <li><a href="#">для водителей</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-6 offset-md-3">
+                  <ul class="menu">
+                     <li><a href="#">центр поддержки</a></li>
+                     <li><a href="#">вакансии</a></li>
+                     <li><a href="#">разработчики</a></li>
+                     <li><a href="#">блог</a></li>
+                     <li><a href="#">о нас</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="lang">
+               <p>русский</p>
+            </div>
+         </div>
+
+      </footer>
    </body>
 
 </html>
