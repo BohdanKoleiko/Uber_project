@@ -169,14 +169,21 @@ a
    justify-content: center
    margin: 26px auto 0 auto
    &_img
-      min-width: 116px
-      min-height: 116px
+      position: relative
+      width: 116px
+      height: 116px
       background-color: $blue_color
       border-radius: 50%
-      display: inline-flex
-      justify-content: center
-      align-items: center
+      //display: inline-flex
+      //justify-content: center
+      //align-items: center
       margin-right: 25px
+      img
+         position: absolute
+         display: block
+         left: 50%
+         top: 50%
+         transform: translateX(-50%) translateY(-50%)
    &_txt
       max-width: 55%
       font-size: 15px
@@ -506,10 +513,9 @@ footer
          
 @media screen and (max-width: 415px)
    .reason
-      display: flex
-      align-items: center
-      justify-content: center
       flex-wrap: wrap
-      &_title
-         display: block
-         max-width: 80%
+      &_img
+         width: 103px
+         height: 103px
+      &_txt
+         max-width: 95%
