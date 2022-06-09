@@ -28,12 +28,11 @@ header
    position: relative
 nav
    background-color: #212121
-   //padding: 10px 0
    position: fixed
    width: 100%
    height: 53px
    z-index: 2
-   
+
 .hamburger
    display: none
 
@@ -83,16 +82,15 @@ a
       background-color: rgba(0, 0, 0, 0.6)
       padding: 18px 0 20px 0
       #order_button
+         @include hover-button
          width: 172px
          height: 46px
-         background-image: linear-gradient(0deg, $blue_color 0%, #4CE2FF 100%)
-         box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
-         border-radius: 4px
          text-transform: uppercase
          color: #FFFFFF
          font-weight: 400
          font-size: 14px
-         padding: 0 19px
+         padding: 13px 0
+         border-radius: 4px
 
    &_logo
       display: block
@@ -107,7 +105,6 @@ a
    #for_call
       display: inline-block
       color: #FFFFFF
-      //width: 182px
       text-align: right
 
    .text_call
@@ -151,14 +148,15 @@ a
 
    #request_button
       text-align: center
-      button
-         color: #FFFFFF
-         background-image: linear-gradient(0deg, $blue_color 0%, #4CE2FF 100%)
-         box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+      a
+         @include hover-button
          width: 259px
          height: 63px
+         color: #FFFFFF
          border-radius: 4px
+         margin: 0 auto
          margin-top: 118px
+         padding: 20px 15px
 //---------------------------------------------
 
 
@@ -187,7 +185,6 @@ a
          top: 50%
          transform: translateX(-50%) translateY(-50%)
    &_txt
-      //max-width: 55%
       font-size: 15px
       font-weight: 300
       span
@@ -390,7 +387,7 @@ a
 
 
 //Begining "footer" block
-footer
+.footer
    padding-top: 14px
    padding-bottom: 54px
    position: relative
@@ -405,7 +402,7 @@ footer
          align-items: center
          width: 35px
          height: 35px
-         border-radius: 100%
+         border-radius: 50%
          background-color: #070716
          &:nth-child(1n+1)
             margin-right: 6px
@@ -434,8 +431,6 @@ footer
       height: 27px
       width: 95px
       
-
-
    .devider
       height: 4px
       width: 299px
@@ -472,8 +467,7 @@ footer
             padding-left: 45px
             padding-right: 45px
 
-
-   .menu
+   &_menu
       display: flex
       justify-content: center
       list-style: none
