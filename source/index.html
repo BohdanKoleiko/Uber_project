@@ -13,7 +13,10 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
-
+      <!--Підключення favicon-->
+      <link rel="shortcut icon" href="./img/favicon_package/favicon.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_package/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon_package/android-icon-192x192.png">
       <!--Підключення стилів-->
       <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
       <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
@@ -27,11 +30,11 @@
                <ul class="menu">
                   <li id="main"><a href="#">Главная</a></li>
                   <div class="devider"></div>
-                  <li><a href="#">Со своим автомобилем</a></li>
+                  <li><a href="#car-choice">Со своим автомобилем</a></li>
                   <div class="devider"></div>
-                  <li><a href="#">На автомобиле компании</a></li>
+                  <li><a href="#car-choice">На автомобиле компании</a></li>
                   <div class="devider"></div>
-                  <li><a href="#">Требования</a></li>
+                  <li><a href="#requirement">Требования</a></li>
                   <div class="devider"></div>
                   <li><a href="#">Контакты</a></li>
                   <div class="devider"></div>
@@ -63,7 +66,7 @@
                      <div id="number_call">8 495 797 09 88</div>
                   </div>
                   <div class="col-6 col-md-3 col-xl-2">
-                     <div id="number_call" class="number_call_active-number">8 495 797 09 88</div>
+                     <div class="number_call_active-number">8 495 797 09 88</div>
                      <a href="#" id="order_button">Заказать звонок</a>
                   </div>
                </div>
@@ -268,14 +271,14 @@
          </div>
       </section>
 
-      <section class="condition">
+      <section class="condition" id="car-choice">
          <div class="container">
             <div class="strong_side">Возможности</div>
             <h2 class="sub_strong_side">условия и требования</h2>
 
             <div class="row align-content-center">
                <div class="col-md-6 offset-md-1">
-                  <div class="condition_blue-title">УСЛОВИЯ: со своим авто:</div>
+                  <div class="condition_blue-title" >УСЛОВИЯ: со своим авто:</div>
 
                   <div class="condition_own-car">
                      <div class="condition_item-blue">
@@ -319,7 +322,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-6 offset-md-1">
+               <div class="col-md-6 offset-md-1" id="requirement">
                   <div class="condition_red-title">ТРЕБОВАНИЕ:</div>
 
                   <div class="condition_requirements">
